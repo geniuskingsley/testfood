@@ -1,0 +1,112 @@
+body {
+  margin: 1.5em;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+section {
+  height: 100vh;
+}
+section .forms h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-top: 10rem;
+}
+section form input {
+  width: 80%;
+  height: 2.8rem;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.83);
+  border: 1px solid rgba(251, 221, 187, 0.51);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 33px;
+  padding-left: 1.2rem;
+}
+
+.showPassword {
+  position: relative;
+  top: -50px;
+  left: 120px;
+  color: #00302e;
+  font-size: 0.9rem;
+}
+
+.signUp {
+  margin-top: -10px;
+  background: #00302e;
+  color: #fbddbb;
+  font-size: 0.9rem;
+  width: 85%;
+}
+
+.alreadyHaveAccount {
+  position: relative;
+  top: 10px;
+  font-size: 0.8rem;
+  top: -10;
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgba(0, 48, 46, 0.91);
+}
+
+.hero-img {
+  background: url(/images/signupfood.png);
+  display: none;
+}
+
+.login {
+  background: url(/images/loginFood.png);
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+  .hero-img {
+    display: inline;
+    width: 50%;
+    height: 100vh;
+    display: inline;
+  }
+  .hero {
+    width: 50%;
+  }
+  .wrapper {
+    display: flex;
+  }
+}
+.createAnAcct {
+  width: 80%;
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  margin-left: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.createAnAcct a {
+  text-decoration: none;
+  line-height: 33px;
+  color: rgba(0, 48, 46, 0.91);
+}
+
+.cacct {
+  margin-right: 50px;
+}
+
+.fpass {
+  margin-left: 30px;
+}/*# sourceMappingURL=userAccount.css.map */
